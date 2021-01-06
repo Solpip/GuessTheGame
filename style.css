@@ -1,0 +1,82 @@
+body {
+    background-color: #CBCBCB
+}
+
+h1 {
+    color: green;
+    font-family: 'Podkova', serif;
+    font-size: 60px;
+}
+
+h2 {
+    color: yellow;
+    font-family: 'Podkova', serif;
+    font-size: 45px;
+}
+
+#score_id {
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+
+
+
+#user_guess {
+    background-color: #9F9F9F;
+    color: #626262;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px 60px;
+    border: none;
+
+}
+
+#game {
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px 20px;
+}
+
+#game-container {
+    background-color: #626262;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 10px 10px;
+}
+
+.button-container {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+.button {
+    background-color: #008000;
+    flex: 1;
+    font-size: 45px;
+    cursor: pointer;
+    font-family: 'Podkova', serif;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 20px;
+    margin: 10px 0;
+    box-shadow: 0 9px #999;
+    
+}
+
+.button:hover {background-color: #007200}
+
+.button:active {
+    background-color: #007200;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
